@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E54925720C99C4CAB4F757 /* MacViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2682B3E567CCC564245533E /* MacViews.swift */; };
+		16A2B9250687F642E3AD0812 /* PhotosStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5F2CBFB6C65C727ABE521 /* PhotosStore.swift */; };
+		1FB109542BFDC5FB3B92B82A /* SiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F2B8825EEDC31E2474FE9 /* SiftApp.swift */; };
+		2713A5AA163C5421D821508D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D520D997C2835FC838AE /* Theme.swift */; };
+		69445CC6AC98705C97B17254 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D520D997C2835FC838AE /* Theme.swift */; };
+		78BFAF46DD8E036514ECD45B /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B5309B31DC7F8FCE92D5A /* SharedViews.swift */; };
+		7B167C57249873920DA6272C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459D30BDC91B49DB3070480 /* Models.swift */; };
+		8D5E867549938CC7CC71F007 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459D30BDC91B49DB3070480 /* Models.swift */; };
+		B3414371056DBD88CD12E07B /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B5309B31DC7F8FCE92D5A /* SharedViews.swift */; };
+		D339F218672AB2B09977BD21 /* MacStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D098DC614D65824C72B28A5 /* MacStore.swift */; };
+		F758D907A05B3D4FFAD39FB3 /* SiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F2B8825EEDC31E2474FE9 /* SiftApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5459D30BDC91B49DB3070480 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		686B3AD478F91DC6ABCF7288 /* Sift-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sift-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D098DC614D65824C72B28A5 /* MacStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacStore.swift; sourceTree = "<group>"; };
+		B19DA394186CABBCA0B8CB80 /* Sift-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Sift-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29B5309B31DC7F8FCE92D5A /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		B84F2B8825EEDC31E2474FE9 /* SiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftApp.swift; sourceTree = "<group>"; };
+		C2A5F2CBFB6C65C727ABE521 /* PhotosStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosStore.swift; sourceTree = "<group>"; };
+		D1E4D520D997C2835FC838AE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F2682B3E567CCC564245533E /* MacViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		30277DBFA6C0A31B6588A673 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2A5F2CBFB6C65C727ABE521 /* PhotosStore.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		45CA59FC210B6C618C2FB69C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19DA394186CABBCA0B8CB80 /* Sift-iOS.app */,
+				686B3AD478F91DC6ABCF7288 /* Sift-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E7161898BD4758C6D215A79 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5459D30BDC91B49DB3070480 /* Models.swift */,
+				B29B5309B31DC7F8FCE92D5A /* SharedViews.swift */,
+				B84F2B8825EEDC31E2474FE9 /* SiftApp.swift */,
+				D1E4D520D997C2835FC838AE /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D852F6552D37B1F8043D7CEB = {
+			isa = PBXGroup;
+			children = (
+				FCB7CDB871D4A9ACB19FD07A /* Sources */,
+				45CA59FC210B6C618C2FB69C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50ABA93BE2EEA364B058772 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				8D098DC614D65824C72B28A5 /* MacStore.swift */,
+				F2682B3E567CCC564245533E /* MacViews.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		FCB7CDB871D4A9ACB19FD07A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				30277DBFA6C0A31B6588A673 /* iOS */,
+				F50ABA93BE2EEA364B058772 /* Mac */,
+				6E7161898BD4758C6D215A79 /* Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27F09BDE4180425C8A1791C /* Sift-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22D8076837DC1CF4187FFD2 /* Build configuration list for PBXNativeTarget "Sift-macOS" */;
+			buildPhases = (
+				290EEDBF937DA83A460A8677 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sift-macOS";
+			packageProductDependencies = (
+			);
+			productName = "Sift-macOS";
+			productReference = 686B3AD478F91DC6ABCF7288 /* Sift-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC936FC0180EF71D6B28BAA1 /* Sift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F737F9BC31172ECCD1F9FD61 /* Build configuration list for PBXNativeTarget "Sift-iOS" */;
+			buildPhases = (
+				DFDEFF30E3673F754339E09C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sift-iOS";
+			packageProductDependencies = (
+			);
+			productName = "Sift-iOS";
+			productReference = B19DA394186CABBCA0B8CB80 /* Sift-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5A71E18F356690F069FA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 26CDFAA764C4528BC7582626 /* Build configuration list for PBXProject "Sift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D852F6552D37B1F8043D7CEB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45CA59FC210B6C618C2FB69C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27F09BDE4180425C8A1791C /* Sift-macOS */,
+				EC936FC0180EF71D6B28BAA1 /* Sift-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290EEDBF937DA83A460A8677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D339F218672AB2B09977BD21 /* MacStore.swift in Sources */,
+				03E54925720C99C4CAB4F757 /* MacViews.swift in Sources */,
+				8D5E867549938CC7CC71F007 /* Models.swift in Sources */,
+				78BFAF46DD8E036514ECD45B /* SharedViews.swift in Sources */,
+				F758D907A05B3D4FFAD39FB3 /* SiftApp.swift in Sources */,
+				69445CC6AC98705C97B17254 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEFF30E3673F754339E09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B167C57249873920DA6272C /* Models.swift in Sources */,
+				16A2B9250687F642E3AD0812 /* PhotosStore.swift in Sources */,
+				B3414371056DBD88CD12E07B /* SharedViews.swift in Sources */,
+				1FB109542BFDC5FB3B92B82A /* SiftApp.swift in Sources */,
+				2713A5AA163C5421D821508D /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57F9C21870FAF9B7CFE5CE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = Sift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Sift scans your Desktop for duplicate photos and videos.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Sift scans Documents for duplicate photos and videos.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Sift scans Downloads for duplicate photos and videos.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sift.mac;
+				PRODUCT_NAME = Sift;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8732B8AC46857180AF66313D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = Sift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Sift scans your Desktop for duplicate photos and videos.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Sift scans Documents for duplicate photos and videos.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Sift scans Downloads for duplicate photos and videos.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sift.mac;
+				PRODUCT_NAME = Sift;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89A2EA77B80E610BB0F2D29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4AE7B32844FCA254ECC87AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = Sift;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Sift removes duplicates you select.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Sift reads your library on this device to find duplicate photos and videos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sift.ios;
+				PRODUCT_NAME = Sift;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF6C4A37C171C349234402BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBCE28D7526E523B74D3AF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = Sift;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Sift removes duplicates you select.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Sift reads your library on this device to find duplicate photos and videos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sift.ios;
+				PRODUCT_NAME = Sift;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CDFAA764C4528BC7582626 /* Build configuration list for PBXProject "Sift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6C4A37C171C349234402BA /* Debug */,
+				89A2EA77B80E610BB0F2D29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B22D8076837DC1CF4187FFD2 /* Build configuration list for PBXNativeTarget "Sift-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732B8AC46857180AF66313D /* Debug */,
+				57F9C21870FAF9B7CFE5CE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F737F9BC31172ECCD1F9FD61 /* Build configuration list for PBXNativeTarget "Sift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCE28D7526E523B74D3AF83 /* Debug */,
+				D4AE7B32844FCA254ECC87AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5A71E18F356690F069FA36 /* Project object */;
+}
